@@ -1,0 +1,60 @@
+.container {
+    margin: 0 auto auto auto;
+    padding: 0 0 0 0; 
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;    
+    background: url(../images/lotto_ticket.png);
+    position: relative;
+}
+
+h1 {
+    display: none;
+}
+
+.container button {
+    display: block;
+    margin: 80% auto;
+    font-size: 0.9em;
+}
+
+.container div {
+    position: absolute;
+    padding: 10px 10px 30px 3px;
+    top: 155px;
+    left: 75px;
+    font-size: 25px;
+    color:  #000;
+    width: 250px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;    
+
+}
+
+.round {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    border: 1px solid black;
+    background: #FFF;    
+    display: inline-block;
+    text-align: center;   
+    margin right: 4px;
+    
+    
+}
+
+.round:hover{
+    background-color: #FFFF00;
+    color: #FF0000;
+}
+
+
+span:last-child {
+    display: none;
+}
+
+
+
+
